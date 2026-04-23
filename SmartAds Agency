@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartAds Agency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0f1c;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #0d1326;
+    }
+    header h1 {
+      color: #00e0ff;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 120px 20px;
+      background: url('https://images.unsplash.com/photo-1526378722484-bd91ca387e72') no-repeat center/cover;
+    }
+    .hero h2 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #00e0ff;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .services {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .service-box {
+      display: inline-block;
+      width: 250px;
+      margin: 20px;
+      padding: 20px;
+      background: #111a33;
+      border-radius: 10px;
+      background-image: linear-gradient(145deg, #0f1c3d, #09122a);
+    }
+    .about {
+      padding: 60px 20px;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475') no-repeat center/cover;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0d1326;
+      margin-top: 40px;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      text-decoration: none;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SmartAds Agency</h1>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Marketing del futuro impulsado por IA</h2>
+  <p>Escala tu negocio con estrategias digitales inteligentes</p>
+  <button class="btn">Empezar ahora</button>
+</section>
+
+<section class="services">
+  <h2>Nuestros Servicios</h2>
+  <div class="service-box">
+    <h3>Publicidad Digital</h3>
+    <p>Campañas optimizadas con IA en Google y Meta Ads.</p>
+  </div>
+  <div class="service-box">
+    <h3>SEO Avanzado</h3>
+    <p>Posicionamiento orgánico con estrategia de datos.</p>
+  </div>
+  <div class="service-box">
+    <h3>Automatización</h3>
+    <p>Embudo de ventas automatizado y CRM inteligente.</p>
+  </div>
+</section>
+
+<section class="about">
+  <h2>¿Por qué elegir SmartAds?</h2>
+  <p>Combinamos tecnología, datos y creatividad para hacer crecer tu negocio exponencialmente.</p>
+</section>
+
+<footer>
+  <p>© 2026 SmartAds Agency - Todos los derechos reservados</p>
+</footer>
+
+<!-- Botón WhatsApp -->
+<a class="whatsapp" href="https://wa.me/34600000000" target="_blank">💬</a>
+
+</body>
+</html>
